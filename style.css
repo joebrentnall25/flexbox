@@ -44,16 +44,34 @@ article {
     flex-direction: column;
     row-gap: 20px;
 }
-article h2 {
-    margin-bottom: 1rem;
-}
 article div {
     border: 2px solid black;
     padding: 20px;
 }
-article div ul {
-    margin-left: 2rem;
+
+.square {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
 }
+
+.top {
+    display:flex;
+    justify-content: space-around;
+}
+.middle {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
 .left {
     flex: 2;
 }
